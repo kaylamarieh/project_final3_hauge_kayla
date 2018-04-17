@@ -52,10 +52,13 @@ h2 {
 }
 
 
-h3 {
+h3,
+label {
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 1.5em;
     color: #28475a;
+    margin-top: 10%;
+    margin-bottom: 0;
 }
 
 nav {
@@ -96,8 +99,9 @@ p {
     color: #28475a;
 }
 
-button {
-    margin: 5%;
+button,
+#ok {
+    margin: 3%;
     padding: 2%;
     background-color: #679dbf;
     color: #ffffff;
@@ -105,13 +109,15 @@ button {
     font-size: 1em;
 }
 
-button:hover {
+button:hover,
+#ok:hover {
     border: #679dbf solid 3px;
     color: #679dbf;
     background-color: #ffffff;
 }
 
-button:active {
+button:active,
+#ok:active {
     background-color: #fed9bc;
 }
 
@@ -149,4 +155,53 @@ button:active {
 
 #roots h2 {
     margin: 0;
+}
+
+#offerings {
+    text-align: center;
+    background-color: #ffffff;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-top: 20%;
+    margin-bottom: 20%;
+}
+
+#offerings img {
+    width: 100%;
+}
+
+#social {
+    text-align: center;
+}
+
+input {
+    display: block;
+    margin: auto;
+    margin-bottom: 3%;
+}
+
+#ok {
+    margin: auto;
+}
+
+#enter {
+    padding: 2%;
+}
+
+#icons {
+    padding-top: 5%;
+}
+
+#icons li {
+    display: inline-block;
+    list-style-type: none;
+    width: 30%;
+}
+
+#icons li img {
+    width: 30%;
+}
+
+#contact {
+    display: none;
 }
