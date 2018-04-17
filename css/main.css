@@ -264,6 +264,42 @@ input {
     }
 
     main #logo img {
+        width: 30%;
+    }
+
+    #roots {
         width: 50%;
+        margin: auto;
+        padding: 5%;
+    }
+
+    #offerings .offers {
+        display: inline-block;
+        width: 30%;
+        vertical-align: top;
+    }
+
+    #offerings .offers img {
+        margin: auto;
+        width: 100%;
+    }
+
+    #social li {
+        width: 10%;
+    }
+
+    #contact {
+        display: inline-block;
+    }
+
+    footer {
+        text-align: center;
+        background-color: #ffffff;
+        margin-top: 2%;
+        padding-bottom: 2%;
+    }
+
+    p {
+        font-size: 1.1em;
     }
 }
