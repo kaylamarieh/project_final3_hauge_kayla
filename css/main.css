@@ -303,3 +303,35 @@ input {
         font-size: 1.1em;
     }
 }
+
+@media (min-width: 1100px) {
+
+    nav {
+        border-bottom: 5px solid #679dbf;
+    }
+
+    #offerings {
+        margin-bottom: 5%;
+        border: 5px solid #764c88;
+    }
+
+    #social {
+        border: 5px solid #764c88;
+        padding-bottom: 2%;
+        width: 45%;
+        margin: auto;
+    }
+
+    #social li {
+        width: 20%;
+    }
+
+    #roots {
+        border: 5px solid #764c88;
+        margin-top: 3%;
+    }
+
+    footer {
+        border-top: 5px solid #679dbf;
+    }
+}
