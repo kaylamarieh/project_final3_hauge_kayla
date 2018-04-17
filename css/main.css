@@ -42,12 +42,19 @@ h1 {
     text-align: center;
     color: #28475a;
     margin: 0;
+    background-color: #ffffff;
 }
 
-h2,
-h3 {
+h2 {
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 2em;
+    color: #28475a;
+}
+
+
+h3 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1.5em;
     color: #28475a;
 }
 
@@ -83,6 +90,43 @@ a:active {
     color: #28475a;
 }
 
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    color: #28475a;
+}
+
+button {
+    margin: 5%;
+    padding: 2%;
+    background-color: #679dbf;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+}
+
+button:hover {
+    border: #679dbf solid 3px;
+    color: #679dbf;
+    background-color: #ffffff;
+}
+
+button:active {
+    background-color: #fed9bc;
+}
+
+#link {
+    color: #6c8555;
+}
+
+#link:hover {
+    color: #764c88;
+}
+
+#link:visited {
+    color: #6c8555;
+}
+
 #logo {
     text-align: center;
 }
@@ -91,4 +135,18 @@ a:active {
     width: 80%;
     background-color: #ffffff;
     border: 5px solid #fed9bc;
+}
+
+#roots {
+    background-color: #ffffff;
+    margin-top: 2%;
+    text-align: center;
+}
+
+#roots p {
+    padding: 2%;
+}
+
+#roots h2 {
+    margin: 0;
 }
