@@ -30,7 +30,8 @@ html {
 }
 
 body {
-    background-color: #fed9bc;
+    background-image: url("../img/background.jpg");
+    background-attachment: fixed;
     padding: 0;
 }
 
@@ -41,7 +42,6 @@ h1 {
     text-align: center;
     color: #28475a;
     margin: 0;
-    background-color: #ffffff;
 }
 
 h2,
@@ -55,6 +55,8 @@ nav {
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 1.2em;
     color: #28475a;
+    background-color: #ffffff;
+    margin-bottom: 3%;
 }
 
 ul {
@@ -83,10 +85,10 @@ a:active {
 
 #logo {
     text-align: center;
-    /*background-image: url('../img/texture.jpg');*/
-    background-color: #ffffff
 }
 
 #logo img {
     width: 80%;
+    background-color: #ffffff;
+    border: 5px solid #fed9bc;
 }
