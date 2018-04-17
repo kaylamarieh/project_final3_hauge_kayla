@@ -1,0 +1,92 @@
+/********
+colors
+green - #6c8555
+light blue - #679dbf
+dark blue - #28475a
+purple - #764c88
+peach - #fed9bc
+**********/
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    white-space: nowrap; /* 1 */
+}
+
+body {
+    background-color: #fed9bc;
+    padding: 0;
+}
+
+h1 {
+    font-family: 'Kristi', cursive;
+    font-size: 2em;
+    width: 100%;
+    text-align: center;
+    color: #28475a;
+    margin: 0;
+    background-color: #ffffff;
+}
+
+h2,
+h3 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 2em;
+    color: #28475a;
+}
+
+nav {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1.2em;
+    color: #28475a;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    width: 48%;
+    padding: 2%;
+    text-align: center;
+}
+
+a {
+    color: #28475a;
+    text-decoration: none;
+}
+
+a:hover,
+a:visited,
+a:active {
+    color: #28475a;
+}
+
+#logo {
+    text-align: center;
+    /*background-image: url('../img/texture.jpg');*/
+    background-color: #ffffff
+}
+
+#logo img {
+    width: 80%;
+}
