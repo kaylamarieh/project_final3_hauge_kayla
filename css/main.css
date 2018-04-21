@@ -276,6 +276,17 @@ input {
     #icons li {
         width: 20%;
     }
+
+    #products section {
+        display: inline-block;
+        width: 49%;
+        vertical-align: top;
+    }
+
+    #products section p {
+        padding-left: 1%;
+        padding-right: 1%;
+    }
 }
 
 @media (min-width: 900px) {
