@@ -289,6 +289,13 @@ input {
     }
 }
 
+@media (min-width: 830px) {
+
+    #products section {
+        width: 32%;
+    }
+}
+
 @media (min-width: 900px) {
 
     nav ul li {
@@ -365,5 +372,16 @@ input {
 
     footer {
         border-top: 5px solid #679dbf;
+    }
+
+    #products section {
+        width: 25%;
+        margin: 4%;
+        border: 5px solid #764c88;
+    }
+
+    #products section p {
+        padding-left: 2%;
+        padding-right: 2%;
     }
 }
