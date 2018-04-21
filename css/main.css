@@ -207,6 +207,27 @@ input {
     display: none;
 }
 
+/****** SEND FLOWERS PAGE *******/
+#products section {
+    background-color: #ffffff;
+    width: 90%;
+    text-align: center;
+    margin: auto;
+}
+
+#products h3 {
+    font-size: 2em;
+    padding-bottom: 1%;
+}
+
+#products section img {
+    width: 90%;
+}
+
+#products section p {
+    font-size: 1.3em;
+}
+
 @media (min-width: 650px) {
 
     nav ul li {
