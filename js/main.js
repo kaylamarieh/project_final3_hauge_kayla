@@ -1,6 +1,9 @@
 $(document).ready(function () {
 
-
+    $('#spring').parallax({imageSrc: 'img/tulips.jpg'});
+    $('#summer').parallax({imageSrc: 'img/marigold.jpg'});
+    $('#fall').parallax({imageSrc: 'img/sunflowers.jpg'});
+    $('#winter').parallax({imageSrc: 'img/camellia.jpg'});
 
 });
 

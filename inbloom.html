@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Kristi" rel="stylesheet">
 </head>
-<body>
+<body id="inBloom">
     <h1>bloom flower shop</h1>
     <nav>
         <h2 class="visuallyhidden">Navigation</h2>
@@ -27,11 +27,19 @@
 
     <div class="container">
 
-        <main>
-            <h2>SPRING: TULIPS</h2>
-            <h2>SUMMER: MARIGOLD</h2>
-            <h2>FALL: SUNFLOWER</h2>
-            <h2>WINTER: CAMELLIA</h2>
+        <main id="bloom">
+            <section class="parallaxer" id="spring">
+                <h2>SPRING: TULIPS</h2>
+            </section>
+            <section class="parallaxer" id="summer">
+                <h2>SUMMER: MARIGOLD</h2>
+            </section>
+            <section class="parallaxer" id="fall">
+                <h2>FALL: SUNFLOWER</h2>
+            </section>
+            <section class="parallaxer" id="winter">
+                <h2>WINTER: CAMELLIA</h2>
+            </section>
         </main>
 
     </div>
@@ -41,6 +49,8 @@
         <p id="contact">954.256.7467 / bloom@flowers.com / 208 SW Sunflower St, Davie, Fl 33345 / Open M-F 9am-5pm / S-S 10am-4pm</p>
     </footer>
 
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/parallax.min.js"></script>
     <script src="js/main.js"></script>
 </body>
 </html>
