@@ -228,6 +228,21 @@ input {
     font-size: 1.3em;
 }
 
+/****** GET FLOWERS PAGE ********/
+#services section {
+    margin-bottom: 20%;
+    padding: 2%;
+    background-color: #ffffff;
+}
+
+#services section img {
+    width: 100%;
+}
+
+#services section h3 {
+    margin-top: 2%;
+}
+
 @media (min-width: 650px) {
 
     nav ul li {
@@ -286,6 +301,17 @@ input {
     #products section p {
         padding-left: 1%;
         padding-right: 1%;
+    }
+
+    #services section img {
+        width: 50%;
+    }
+
+    #services section div {
+        width: 47%;
+        display: inline-block;
+        vertical-align: top;
+        padding-left: 2%;
     }
 }
 
