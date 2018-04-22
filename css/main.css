@@ -419,6 +419,9 @@ input {
     #services {
         margin-left: 1%;
     }
+}
+
+@media (min-width: 1160px) {
 
     #services section {
         width: 49%;
