@@ -252,6 +252,10 @@ input {
     color: #6c8555;
 }
 
+#services a:hover {
+    color: #764c88;
+}
+
 /****** WORKSHOPS PAGE *********/
 #workshops section {
     background-color: #ffffff;
