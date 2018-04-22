@@ -71,7 +71,6 @@ nav {
     font-size: 1.2em;
     color: #28475a;
     background-color: #ffffff;
-    margin-bottom: 3%;
 }
 
 ul {
@@ -96,6 +95,18 @@ a:hover,
 a:visited,
 a:active {
     color: #28475a;
+}
+
+#mobile {
+    background-color: #ffffff;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 2%;
+}
+
+#mobile i {
+    padding: 8%;
+    font-size: 1.5em;
 }
 
 p {
@@ -297,7 +308,7 @@ input {
 }
 
 #bloom section h2 {
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(255, 255, 255, 0.9);
     padding: 5%;
 }
 
@@ -451,6 +462,21 @@ input {
 
     p {
         font-size: 1.1em;
+    }
+
+    #mobile {
+        border: 0;
+        clip: rect(0 0 0 0);
+        height: 1px;
+        margin: -1px;
+        overflow: hidden;
+        padding: 0;
+        position: absolute;
+        width: 1px;
+    }
+
+    nav {
+        margin-bottom: 3%;
     }
 }
 
