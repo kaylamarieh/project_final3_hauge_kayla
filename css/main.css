@@ -243,6 +243,26 @@ input {
     margin-top: 2%;
 }
 
+#services a {
+    color: #6c8555;
+}
+
+/****** WORKSHOPS PAGE *********/
+#workshops section {
+    background-color: #ffffff;
+    margin-bottom: 20%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+#workshops section img {
+    width: 100%;
+}
+
+#workshops section h3 {
+    margin-top: 1%;
+}
+
 @media (min-width: 650px) {
 
     nav ul li {
@@ -315,6 +335,13 @@ input {
     }
 
     #services section {
+        margin-bottom: 2%;
+    }
+
+    #workshops section {
+        display: inline-block;
+        width: 49%;
+        vertical-align: top;
         margin-bottom: 2%;
     }
 }
@@ -418,6 +445,14 @@ input {
 
     #services {
         margin-left: 1%;
+    }
+
+    #workshops {
+        margin-left: 1%;
+    }
+
+    #workshops section {
+        border: 5px solid #764c88;
     }
 }
 
