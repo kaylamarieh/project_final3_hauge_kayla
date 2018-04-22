@@ -101,12 +101,18 @@ a:active {
     background-color: #ffffff;
     text-align: center;
     margin-top: 0;
-    margin-bottom: 2%;
+    margin-bottom: 0;
 }
 
 #mobile i {
     padding: 8%;
     font-size: 1.5em;
+}
+
+#add {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 4%;
 }
 
 p {
