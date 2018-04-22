@@ -113,6 +113,7 @@ a:active {
     text-align: center;
     margin-top: 0;
     margin-bottom: 4%;
+    background-color: #ffffff;
 }
 
 p {
@@ -470,7 +471,8 @@ input {
         font-size: 1.1em;
     }
 
-    #mobile {
+    #mobile,
+    #add {
         border: 0;
         clip: rect(0 0 0 0);
         height: 1px;
