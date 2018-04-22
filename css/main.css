@@ -313,6 +313,10 @@ input {
         vertical-align: top;
         padding-left: 2%;
     }
+
+    #services section {
+        margin-bottom: 2%;
+    }
 }
 
 @media (min-width: 830px) {
@@ -320,6 +324,7 @@ input {
     #products section {
         width: 32%;
     }
+
 }
 
 @media (min-width: 900px) {
@@ -409,5 +414,15 @@ input {
     #products section p {
         padding-left: 2%;
         padding-right: 2%;
+    }
+
+    #services {
+        margin-left: 1%;
+    }
+
+    #services section {
+        width: 49%;
+        display: inline-block;
+        border: 5px solid #764c88;
     }
 }
