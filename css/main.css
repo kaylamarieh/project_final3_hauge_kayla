@@ -270,6 +270,7 @@ input {
 
 #workshops section h3 {
     margin-top: 1%;
+    padding-bottom: 2%;
 }
 
 /********* EVENTS PAGE **********/
@@ -488,11 +489,13 @@ input {
 
     #workshops section {
         border: 5px solid #764c88;
+        padding-bottom: 1%;
     }
 
     #events {
         border: 5px solid #764c88;
         padding-top: 2%;
+        background-color: #ffffff;
     }
 }
 
