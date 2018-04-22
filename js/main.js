@@ -4,6 +4,7 @@ $(document).ready(function () {
 
 });
 
+//Add a section to the events page about upcoming events
 var selected = document.getElementById('events');
 var newElement = document.createElement('section');
 

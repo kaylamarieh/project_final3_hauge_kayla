@@ -272,6 +272,17 @@ input {
     margin-top: 1%;
 }
 
+/********* EVENTS PAGE **********/
+#events section {
+    padding-left: 2%;
+    padding-right: 2%;
+    background-color: #ffffff;
+}
+
+#events section img {
+    width: 100%;
+}
+
 @media (min-width: 650px) {
 
     nav ul li {
@@ -359,6 +370,21 @@ input {
 
     #products section {
         width: 32%;
+    }
+
+    #events {
+        max-width: 700px;
+        margin: auto;
+    }
+
+    #events section img {
+        width: 48%;
+    }
+
+    #events section h2 {
+        width: 48%;
+        display: inline-block;
+        padding-right: 5%;
     }
 
 }
@@ -462,6 +488,11 @@ input {
 
     #workshops section {
         border: 5px solid #764c88;
+    }
+
+    #events {
+        border: 5px solid #764c88;
+        padding-top: 2%;
     }
 }
 
