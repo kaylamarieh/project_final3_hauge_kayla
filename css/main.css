@@ -97,16 +97,6 @@ a:active {
     color: #28475a;
 }
 
-.buttons,
-.buttons:visited,
-.buttons:active {
-    color: #ffffff;
-}
-
-.buttons:hover {
-    color: #679dbf;
-}
-
 #mobile {
     background-color: #ffffff;
     text-align: center;
@@ -136,7 +126,11 @@ p {
     color: #28475a;
 }
 
-button,
+p .buttons {
+    color: #ffffff;
+}
+
+.buttons,
 #ok {
     margin: 3%;
     padding: 2%;
@@ -146,14 +140,14 @@ button,
     font-size: 1em;
 }
 
-button:hover,
+.buttons:hover,
 #ok:hover {
     border: #679dbf solid 3px;
     color: #679dbf;
     background-color: #ffffff;
 }
 
-button:active,
+.buttons:active,
 #ok:active {
     background-color: #fed9bc;
 }
