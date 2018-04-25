@@ -27,3 +27,7 @@
 "I reviewed the list of deductions for this assignment and in the syllabus"
 
 ## Comments
+* Custom JavaScript
+    * On the events page I created custom JavaScript which ads events to the page. To do this I had an empty main element on the events html, then in the JavaScript I called that element by its ID and appended a child to it which contains an image, a headline and a few paragraphs describing the event.
+* Custom jQuery
+    * The custom jQuery I created can be seen on every page while on the mobile sizes. Under the navigation there are four icons. They were placed there in the HTML. When the icon is clicked you get the actual information it represents. To do this I created an empty div with an id of add within the same div holding the icons. I created an event listener for a click so when the icon is clicked the div with the id of add is first emptied so that if a previously item was clicked it wont show and then a new paragraph is appended to the add div with the information about the icon.
