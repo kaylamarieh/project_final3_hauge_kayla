@@ -2,8 +2,8 @@
 * Kayla Hauge
 * 04-25-2018
 * [Github Repo link](https://github.com/kaylamarieh/project_final3_hauge_kayla.git)
-* [Web Host]()
-* [W3C Validator]()
+* [Web Host](http://kaylahauge.com/project_final3_hauge_kayla/)
+* [W3C Validator](https://github.com/kaylamarieh/project_final3_hauge_kayla)
 * [HTML 5 Outliner]()
 
 ## Resources

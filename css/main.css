@@ -97,6 +97,16 @@ a:active {
     color: #28475a;
 }
 
+.buttons,
+.buttons:visited,
+.buttons:active {
+    color: #ffffff;
+}
+
+.buttons:hover {
+    color: #679dbf;
+}
+
 #mobile {
     background-color: #ffffff;
     text-align: center;
