@@ -1,5 +1,6 @@
 $(document).ready(function () {
 
+    //loads the elements onto the page on scroll
     $('.load').boxLoader({
         direction: 'y',
         position: '100%',
