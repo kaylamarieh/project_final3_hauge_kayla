@@ -11,3 +11,12 @@ myForm.addEventListener('input', function () {
     myElement.innerHTML = (firstName).value + ' ' + (lastName).value + ' your order consists of ' + (number).value + ' bouquets of ' + document.getElementById('select').value + ' flowers, for a total of ' + (total * result);
     document.getElementById('notify').appendChild(myElement);
 });
+
+$(document).ready(function () {
+
+    $('form').submit(function (event) {
+        event.preventDefault();
+        $('#orderform').empty().append('<p>Thank you for your order!</p>');
+    });
+
+});
