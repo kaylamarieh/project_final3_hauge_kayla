@@ -4,7 +4,7 @@
 * [Github Repo link](https://github.com/kaylamarieh/project_final3_hauge_kayla.git)
 * [Web Host](http://kaylahauge.com/project_final3_hauge_kayla/)
 * [W3C Validator](https://github.com/kaylamarieh/project_final3_hauge_kayla)
-* [HTML 5 Outliner]()
+* [HTML 5 Outliner]() Sent screen shots via email
 
 ## Resources
 * [jQuery Download](https://jquery.com/download/)
