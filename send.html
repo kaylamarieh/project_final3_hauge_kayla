@@ -108,6 +108,44 @@
             </section>
         </main>
 
+        <aside class="order load">
+            <form id="orderform">
+
+                <label for="firstname">First Name:</label>
+                <input type="text" name="firstname" id="firstname">
+
+                <label for="lastname">Last Name:</label>
+                <input type="text" name="lastname" id="lastname">
+
+                <label for="amount">Number of Bouquets</label>
+                <input type="number" name="amount" placeholder="1" id="amount">
+
+                <label for="products">Products:</label>
+                <select name="products" class="select" id="select">
+                    <option value="air">Air</option>
+                    <option value="ash">Ash</option>
+                    <option value="earth">Earth</option>
+                    <option value="fire">Fire</option>
+                    <option value="ground">Ground</option>
+                    <option value="metal">Metal</option>
+                    <option value="sky">Sky</option>
+                    <option value="snow">Snow</option>
+                    <option value="sun">Sun</option>
+                    <option value="water">Water</option>
+                    <option value="wind">Wind</option>
+                    <option value="wood">Wood</option>
+                </select>
+
+                <input type="submit" name="submit" value="SUBMIT" id="enter">
+
+                <div id="notify">
+
+                </div>
+
+            </form>
+
+        </aside>
+
     </div>
 
     <footer>
@@ -118,6 +156,7 @@
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/jquery.boxloader.min.js"></script>
     <script src="js/boxloader.js"></script>
+    <script src="js/form.js"></script>
     <script src="js/main.js"></script>
 </body>
 </html>

@@ -1,9 +1,9 @@
 # Final Part 3
 * Kayla Hauge
 * 04-25-2018
-* [Github Repo link](https://github.com/kaylamarieh/project_final3_hauge_kayla.git)
+* [Github Repo link](https://github.com/kaylamarieh/project_final3_hauge_kayla)
 * [Web Host](http://kaylahauge.com/project_final3_hauge_kayla/)
-* [W3C Validator](https://github.com/kaylamarieh/project_final3_hauge_kayla)
+* [W3C Validator](https://validator.w3.org/unicorn/check?ucn_uri=kaylahauge.com%2Fproject_final3_hauge_kayla%2F&ucn_task=conformance#)
 * [HTML 5 Outliner]()
 
 ## Resources

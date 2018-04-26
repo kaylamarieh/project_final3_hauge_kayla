@@ -566,3 +566,66 @@ input {
         border: 5px solid #764c88;
     }
 }
+
+/****** ORDER FORM **********/
+.order {
+    width: 100%;
+    background-color: #ffffff;
+    margin: auto;
+}
+
+#orderform {
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.select {
+    display: block;
+    margin: auto;
+}
+
+#products {
+    margin-bottom: 4%;
+}
+
+#enter {
+    margin-top: 5%;
+    padding: 2%;
+    background-color: #679dbf;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+}
+
+#enter:hover {
+    border: #679dbf solid 3px;
+    color: #679dbf;
+    background-color: #ffffff;
+}
+
+#enter:active {
+    background-color: #fed9bc;
+}
+
+@media (min-width: 900px) {
+
+    #orderform {
+        margin-bottom: 1%;
+        padding-bottom: 3%;
+    }
+
+    .order {
+        width: 50%;
+    }
+}
+
+@media (min-width: 1100px) {
+
+    .order {
+        border: 5px solid #679dbf;
+    }
+
+    #orderform {
+        padding-top: 3%;
+    }
+}
